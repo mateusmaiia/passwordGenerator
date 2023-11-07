@@ -113,5 +113,6 @@ upperCaseCheckEl.addEventListener("click", generatePassword)
 numberCheckEl.addEventListener("click", generatePassword)
 symbolCheckEl.addEventListener("click", generatePassword)
 
+document.querySelector("#renew").addEventListener("click", generatePassword)
 
 generatePassword()
